@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class TutorialModule {
   final String id;
   final String title;
@@ -34,7 +36,7 @@ final List<TutorialModule> curriculumData = [
     id: '1',
     title: 'Pengenalan & Persiapan',
     description: 'Pelajari komponen dasar dan alat yang dibutuhkan sebelum memulai.',
-    icon: 0xe57f, // build icon
+    icon: Icons.build, // build icon
     steps: [
       TutorialStep(
         title: 'Alat-alat yang Dibutuhkan',
@@ -51,7 +53,7 @@ final List<TutorialModule> curriculumData = [
     id: '2',
     title: 'Perakitan Inti (Core)',
     description: 'Langkah krusial memasang CPU dan RAM ke Motherboard.',
-    icon: 0xe322, // memory icon
+    icon: Icons.memory, // memory icon
     steps: [
       TutorialStep(
         title: 'Memasang Prosesor (CPU)',
@@ -69,7 +71,7 @@ final List<TutorialModule> curriculumData = [
     id: '3',
     title: 'Upgrade Laptop',
     description: 'Panduan khusus untuk upgrade komponen laptop.',
-    icon: 0xe31e, // laptop icon
+    icon: Icons.laptop, // laptop icon
     steps: [
       TutorialStep(
         title: 'Mengganti RAM Laptop',
